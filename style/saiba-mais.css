@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Cookie&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+#cabecalho {
+  background-color: #e7e4e2;
+}
+
+#cabecalho img {
+  padding-bottom: 15px;
+}
+
+.container {
+  /* max-width: 90%; */
+  margin: auto;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav ul {
+  display: flex;
+  margin-top: 10px;
+  /* justify-content: space-between; */
+}
+
+.nav ul li a {
+  justify-content: space-between;
+  color: #5e4b3c;
+}
+
+.nav ul li a:first-of-type {
+  margin-right: 15px;
+}
+
+.nav ul li a:nth-child(2) {
+  margin: 0px 15px;
+}
+
+.nav ul li a:last-child {
+  margin-left: 15px;
+}
+
+.nav ul li a {
+  font-size: 24px;
+  font-family: "Cookie", cursive;
+  text-decoration: none;
+  /* border: #5e4b3c solid 1px; */
+  padding: 5px 15px;
+  border-radius: 15px;
+}
+
+.nav ul li a:hover {
+  background-color: #5e4b3c;
+  color: white;
+  transform: scale(1.1);
+  transition: all 0.5s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 900px){
+    .lista-nav{
+        /* display: none; */
+        margin: auto;
+        /* background-color: #362d27; */
+    }
+    .logo-nav{
+        margin: auto;
+        
+    }
+}
